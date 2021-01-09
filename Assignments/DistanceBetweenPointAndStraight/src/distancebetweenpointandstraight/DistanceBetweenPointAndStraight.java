@@ -21,9 +21,9 @@ public class DistanceBetweenPointAndStraight {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter point P=(x,y) ");
          System.out.print("Enter poin x = ");
-         int x = scanner.nextInt();
+         float x = scanner.nextFloat();
          System.out.print("Enter poin y = ");
-         int y = scanner.nextInt();
+         Float y = scanner.nextFloat();
          System.out.println("Enter  straight ");
          System.out.println("Ax+By+C=0");
          System.out.print("Enter value A = ");
@@ -32,12 +32,12 @@ public class DistanceBetweenPointAndStraight {
          int B = scanner.nextInt();
          System.out.print("Enter value C = ");
          int C = scanner.nextInt();
-         int pro1 = x * A;  
-         int pro2 = y * B;
-         int sum1  = pro1 + pro2 + C;
-         int a1 = x * x;
-         int b1 = y * y;
-         int sum2 = a1 + b1;
+         Float pro1 = x * A;  
+         Float pro2 = y * B;
+         Float sum1  = pro1 + pro2 + C;
+         Float a1 = x * x;
+         Float b1 = y * y;
+         Float sum2 = a1 + b1;
          float root = (float) Math.sqrt(sum2);
          double result = (sum1 / root);
      
