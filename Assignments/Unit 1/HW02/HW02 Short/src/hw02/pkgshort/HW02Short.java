@@ -3,43 +3,44 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package distancebetweenpointandstraight;
+package hw02.pkgshort;
 
 import java.util.Scanner;
 
 /**
  *
- * @author CLIENTE
+ * @author Eduardo Cambi
  */
-public class DistanceBetweenPointAndStraight {
+public class HW02Short {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner scanner = new Scanner(System.in);
+      Scanner scanner = new Scanner(System.in);
+      System.out.println("Enter number reals) ");
         System.out.println("Enter point P=(x,y) ");
          System.out.print("Enter poin x = ");
-         float x = scanner.nextFloat();
+         short x = scanner.nextShort();
          System.out.print("Enter poin y = ");
-         Float y = scanner.nextFloat();
+         short y = scanner.nextShort();
          System.out.println("Enter  straight ");
          System.out.println("Ax+By+C=0");
          System.out.print("Enter value A = ");
-         int A = scanner.nextInt();  
+         short A = scanner.nextShort();  
          System.out.print("Enter value B = ");
-         int B = scanner.nextInt();
+         short B = scanner.nextShort();
          System.out.print("Enter value C = ");
-         int C = scanner.nextInt();
-         Float pro1 = x * A;  
-         Float pro2 = y * B;
-         Float sum1  = pro1 + pro2 + C;
-         Float a1 = x * x;
-         Float b1 = y * y;
-         Float sum2 = a1 + b1;
-         float root = (float) Math.sqrt(sum2);
-         double result = (sum1 / root);
+         short C = scanner.nextShort();
+         short pro1 = (short) (x * A);  
+         short pro2 = (short) (y * B);
+         short sum1  = (short) (pro1 + pro2 + C);
+         short a1 = (short) (A * A);
+         short b1 = (short) (B * B);
+         short sum2 = (short) (a1 + b1);
+         short root = (short) Math.sqrt(sum2);
+         short result = (short) (sum1 / root);
      
          System.out.println(" The distan is equial --> " + result);
     }
