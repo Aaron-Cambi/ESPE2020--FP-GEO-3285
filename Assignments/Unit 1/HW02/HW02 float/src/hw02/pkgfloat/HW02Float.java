@@ -38,8 +38,8 @@ public class HW02Float {
         float a1 = A * A;
          float b1 = B * B;
          float sum2 = a1 + b1;
-         float root = (float) Math.sqrt(sum2);
-         float result = (float) (sum1 / root);
+         double root =  Math.sqrt(sum2);
+         double result = (sum1 / root);
      
          System.out.println(" The distan is equial --> " + result);
     }

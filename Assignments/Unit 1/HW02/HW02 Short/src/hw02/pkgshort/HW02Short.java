@@ -33,14 +33,14 @@ public class HW02Short {
          short B = scanner.nextShort();
          System.out.print("Enter value C = ");
          short C = scanner.nextShort();
-         short pro1 = (short) (x * A);  
-         short pro2 = (short) (y * B);
-         short sum1  = (short) (pro1 + pro2 + C);
-         short a1 = (short) (A * A);
-         short b1 = (short) (B * B);
-         short sum2 = (short) (a1 + b1);
-         short root = (short) Math.sqrt(sum2);
-         short result = (short) (sum1 / root);
+         double  pro1 =  (x * A);  
+         double pro2 =  (y * B);
+         double sum1  =  (pro1 + pro2 + C);
+         double a1 =  (A * A);
+         double b1 =  (B * B);
+         double sum2 =  (a1 + b1);
+         double root =  Math.sqrt(sum2);
+         double result =  (sum1 / root);
      
          System.out.println(" The distan is equial --> " + result);
     }

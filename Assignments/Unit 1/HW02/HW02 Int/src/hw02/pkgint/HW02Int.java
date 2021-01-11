@@ -24,6 +24,7 @@ public class HW02Int {
          int x = scanner.nextInt();
          System.out.print("Enter poin y = ");
          int y = scanner.nextInt();
+         
          System.out.println("Enter  straight ");
          System.out.println("Ax+By+C=0");
          System.out.print("Enter value A = ");
@@ -32,16 +33,18 @@ public class HW02Int {
          int B = scanner.nextInt();
          System.out.print("Enter value C = ");
          int C = scanner.nextInt();
+         
          int pro1 = x * A;  
          int pro2 = y * B;
          int sum1  = pro1 + pro2 + C;
          int a1 = A * A;
          int b1 = B * B;
          int sum2 = a1 + b1;
-         int root = (int) Math.sqrt(sum2);
-         int result = (int) (sum1 / root);
+         double root =  Math.sqrt(sum2);
+         double result =  (sum1 / root);
      
-         System.out.println(" The distan in numbers real is equial --> " + result);
+         System.out.println(" The distan in numbers real is equial --> "
+                 + result);
     }
     
 }
