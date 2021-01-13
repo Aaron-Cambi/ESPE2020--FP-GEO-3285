@@ -3,20 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ws05.interations;
+package ws05.interation;
 
 /**
  *
  * @author Eduardo Cambi
  */
-public class WS05Interations {
+public class WS05Interation {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        int i ;
+        // TODO code application logic here
+         int i ;
         i = 0;
         System.out.println("=== This while loop from i to 10 ===");
         while(i < 10){
@@ -39,17 +39,13 @@ public class WS05Interations {
            }
            System.out.println(" Multiplication table: 9 ");
            int top = 12;
-           int product = 0 ;
+           int product =0 ;
            int table = 9;
            for(int j = 1; j<= top ;j++){
                product = table * j;
                System.out.println(" 9 * " + j + " = " + product);
            }               
+  
     }
+    
 }
-
-         
-       
-        
-    
-    

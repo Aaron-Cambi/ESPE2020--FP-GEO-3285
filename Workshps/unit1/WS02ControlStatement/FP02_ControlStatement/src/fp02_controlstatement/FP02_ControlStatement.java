@@ -27,6 +27,7 @@ public class FP02_ControlStatement {
                System.out.println(n + " is event");
                } else {
                      System.out.println(n + " is odd");
-                    }           
+                    }  
+               
       }
 }
