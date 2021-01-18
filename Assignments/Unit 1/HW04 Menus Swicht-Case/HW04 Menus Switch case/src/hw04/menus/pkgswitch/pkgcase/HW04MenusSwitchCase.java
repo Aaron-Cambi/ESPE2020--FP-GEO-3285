@@ -29,7 +29,7 @@ public class HW04MenusSwitchCase {
         int x;
         int y;
         do {
-            System.out.println("Calculator the Áreas");
+            System.out.println("Calculator operations");
             System.out.println("1. Distance between points ");
             System.out.println("2. Slope of the straight");
             System.out.println("3. Multiplication table");
@@ -56,7 +56,7 @@ public class HW04MenusSwitchCase {
                     x = x2 - x1;
                     y = y2 - y1;
                     distance = (float) Math.sqrt(x * x + y * y);
-                    System.out.println("Square area is --> " + distance + " \n ");
+                    System.out.println("Distance is --> " + distance + " \n ");
                     break;
                 case 2:
                     float m;
@@ -74,7 +74,7 @@ public class HW04MenusSwitchCase {
                     y = y2 - y1;
                     x = x2 - x1;
                     m = y / x;
-                    System.out.println("Rectangule area is --> " + m + "\n");
+                    System.out.println("Slope is --> " + m + "\n");
                     break;
                 case 3:
                     System.out.println("Multiplication table ");
@@ -95,14 +95,13 @@ public class HW04MenusSwitchCase {
                 case 4:
                     int n;
                     int sum = 0;
-                    System.out.println("Sum of the n first numbers");
-                    Scanner teclado = new Scanner(System.in);
+                    System.out.println("Sum of the n first numbers");                   
                     System.out.println("Enter n");
-                    n = teclado.nextInt();
+                    n = input.nextInt();
                     for (int a = 2; a < n; a++) {
                         sum = n * (n + 1) / 2;
                     }
-                    System.out.println("Sum of the " + n + " first numbers"
+                    System.out.println("Sum is equal "
                             + sum);
                     break;
 
