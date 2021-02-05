@@ -79,7 +79,7 @@ public class HW10Funtions {
         System.out.println("================================================ " + "\n"
                 + "       Tabla de multiplicar del " + multiplier + "       " + "\n"
                 + "================================================ ");
-        table = TableOfMultiply(multiplier);
+        TableOfMultiply(multiplier);
 
     }
 
@@ -101,7 +101,7 @@ public class HW10Funtions {
         return y;
     }
 
-    public static int TableOfMultiply(int m) {
+    public static void TableOfMultiply(int m) {
 
         int n = (int) 0.0F;
         int stop = 12;
@@ -111,7 +111,6 @@ public class HW10Funtions {
             System.out.println(s + " * " + m + " = " + n);
         }
         System.out.println("================================================ ");
-        return n;
     }
 
 }
