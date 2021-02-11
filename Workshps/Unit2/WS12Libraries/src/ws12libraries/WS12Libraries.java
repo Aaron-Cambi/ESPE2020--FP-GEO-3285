@@ -44,12 +44,12 @@ public class WS12Libraries {
         base = 2;
         exponent = 4; // calculator 78
         power = (float) Math.pow(base, exponent);
-        System.out.println(base + "^" + exponent + "is" + power);
+        System.out.println(base + " ^ " + exponent + " is " + power);
 
         base = 78;
         exponent = 5;
         power = (float) Math.pow(base, exponent);
-        System.out.println(power);
+        System.out.println(base + " ^ " + exponent + " is " + power);
 
         absoluteValue = getAbsoluteValue(number);
         number = -5;
