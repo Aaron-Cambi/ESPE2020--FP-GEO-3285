@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hw12libraries;
+package hw12texs;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Eduardo Cambi
  */
-public class HW12Libraries {
+public class HW12Texs {
 
     /**
      * @param args the command line arguments
