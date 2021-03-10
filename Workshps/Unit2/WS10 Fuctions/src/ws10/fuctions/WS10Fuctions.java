@@ -22,6 +22,7 @@ public class WS10Fuctions {
         int x = 0;
         int y = 0;       
         int number = 6;
+        System.out.println("AUTOR: EMILIA VALENTINA CALVACHE");
         quotient = divideTwoNumbers(5, 10);
         System.out.println("Quotient of 5 and 10 is -->" + quotient);
         y = f(3);
