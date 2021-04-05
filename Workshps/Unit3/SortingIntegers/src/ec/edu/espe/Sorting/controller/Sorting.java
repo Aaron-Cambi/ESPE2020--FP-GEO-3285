@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ws24sorting;
+package ec.edu.espe.Sorting.controller;
 
 /**
  *
  * @author Eduardo Cambi
  */
-public class BubbleSort {
+public class Sorting {
 
-    public static void sort(int[] integers) {
+    public int[] sortByBubbleSort(int[] integers) {
         int n = integers.length;
         int temp;
         for (int i = 0; i < n - 1; i++) {
@@ -23,16 +23,6 @@ public class BubbleSort {
                 }
             }
         }
-    }
-
-    public static int add(int a, int b) {
-        int c;
-        c = a + b; //a = 7, b = 9, c = 16
-        a = 0;
-        b = 0;
-        System.out.println("a (inside add()-> " + a);
-        System.out.println("b (inside add()-> " + b);
-
-        return c;
+        return integers;
     }
 }

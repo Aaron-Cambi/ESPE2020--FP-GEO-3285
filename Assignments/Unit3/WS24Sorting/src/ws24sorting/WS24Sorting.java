@@ -33,8 +33,7 @@ public class WS24Sorting {
         
         integersToSort2 = new int[]{9, 7, 3, 1, 4};
         
-        System.out.println("Unsorted integers");
-        printArray(integersToSort2);
+      
         BubbleSort.sort(integersToSort2);
         System.out.println("");
         printArray(integersToSort2);

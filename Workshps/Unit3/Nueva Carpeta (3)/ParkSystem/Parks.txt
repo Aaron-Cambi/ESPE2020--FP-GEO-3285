@@ -1,0 +1,9 @@
+
+Las Cuadras,Sur,8,1600,false
+Itchimbia,centro,8,1700,false
+Itchimbia,centro,8,1700,false
+Las cuadras,Sur,8,18,false
+Las cuadras,Sur,8,18,false
+FDS,G,5,8,false
+456,G,5,8,false
+FGG,G,5,8,false
